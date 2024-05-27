@@ -1,0 +1,19 @@
+<div>
+  <h2>Upload and Detect Faces</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="imageName" required>
+    </div>
+    <div>
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image" (change)="onFileSelected($event)" accept="image/*" required>
+    </div>
+    <button type="submit">Upload</button>
+   
+  </form>
+
+
+</div>
+
+

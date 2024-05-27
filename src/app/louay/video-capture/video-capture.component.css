@@ -1,0 +1,11 @@
+.video-container {
+    position: relative;
+    width: 720px; /* Adjust based on your video resolution */
+    height: 560px; /* Adjust based on your video resolution */
+  }
+  
+  video, canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
